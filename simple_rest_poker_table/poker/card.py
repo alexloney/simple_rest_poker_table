@@ -23,7 +23,7 @@ class Card:
         else:
             result += str(self.rank)
         
-        if self.suit == Suit.SPAID:
+        if self.suit == Suit.SPADE:
             result += 's'
         elif self.suit == Suit.CLUB:
             result += 'c'
